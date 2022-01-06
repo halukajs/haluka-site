@@ -1,0 +1,61 @@
+@layout('layout.layout')
+
+@section('header')
+  
+<link rel="stylesheet" type="text/css" media="screen" href="/css/home.css?v=0.5" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/clouds.css?v=0.5" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/sky.css?v=0.5" />
+
+@endsection
+
+@section('content')
+
+	<div class="jumbo">
+		
+		<div class="cloud s1"></div>
+		<div class="cloud s2"></div>
+		<div class="cloud s3"></div>
+		<div class="cloud s4"></div>
+		<div class="cloud s5"></div>
+		
+		<div class="cloudcontent">
+			<h1>Haluka Framework<br><span>As light as a feather</span></h1>
+
+			<div class="subtext">
+				Haluka is so lightweight that it soars up high in the sky and powers the cloud!
+			</div>
+
+			<div class="bottomcontent">
+				<h2>Ready to build?</h1>
+				<div class="subtext">
+					Install the CLI tool, read the documentation and get started!
+				</div>
+				<a class="btn btn-lg" href="getting-started">Install Haluka CLI</a>
+				<a class="btn btn-lg" href="docs">Read the Docs</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="birds">
+		<div class="cont">
+			<div class="bird-container bird-container--one">
+				<div class="bird bird--one"></div>
+			</div>
+			
+			<div class="bird-container bird-container--two">
+				<div class="bird bird--two"></div>
+			</div>
+			
+			<div class="bird-container bird-container--three">
+				<div class="bird bird--three"></div>
+			</div>
+			
+			<div class="bird-container bird-container--four">
+				<div class="bird bird--four"></div>
+			</div>
+			
+		</div>
+	</div>
+
+
+@endsection

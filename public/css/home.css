@@ -1,0 +1,73 @@
+
+/* START JUMBO SECTION */
+
+.jumbo {
+	z-index: 1;
+	position: relative;
+	background: #4b8af1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	padding-top:170px;
+	letter-spacing: 2px;
+}
+
+.subtext {
+	margin-top: 20px;
+	margin-bottom: 10px;
+    font-size: 18px;
+    color: #dce9ff;
+    font-family: 'Inconsolata', sans-serif;
+    text-shadow: 0px 0px 1px #4b8af1;
+}
+
+.jumbo h1 {
+    font-size: 4em;
+    line-height: 1;
+	text-shadow: 0px 0px 5px #4b8af1;
+	font-weight: 100;
+}
+
+.jumbo h1 span {
+    padding-bottom: 5px;
+	font-size: 1.5rem;
+	font-family: 'Exo 2', sans-serif;
+    color: #1557c0;
+    border-bottom: 2px solid #1557c0;
+    line-height: 3;
+	text-transform: uppercase;
+    text-shadow: 0px 0px 4px #4b8af1;
+}
+
+.bottomcontent {
+	margin-top: 90px;
+}
+
+/* END JUMBO SECTION */
+
+
+/* JUMBO BUTTON START */
+.btn {
+    color: #fff;
+    background-color: #1158ca;
+    border-radius: 0;
+    letter-spacing: 2px;
+    white-space: normal;
+	padding: 5px 50px;
+	margin: 10px 20px;
+    touch-action: manipulation;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+
+.btn:hover{
+	padding: 5px 80px;
+	color: #fff;
+	background-color: #002f7a;
+}
+
+/* JUMBO BUTTON END */

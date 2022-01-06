@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@haluka/axe": "github:halukadev/axe",
+    "@haluka/core": "github:halukajs/core",
+    "@haluka/express-dispatcher": "github:halukadev/express-dispatcher",
+    "@haluka/routing": "github:halukajs/routing",
+    "debug": "^4.3.2",
+    "express-edge": "^2.0.2",
+    "pug": "^3.0.2",
+    "showdown": "^1.9.1"
+  },
+  "name": "haluka-site",
+  "version": "0.0.0",
+  "description": ""
+}

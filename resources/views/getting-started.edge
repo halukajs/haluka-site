@@ -1,0 +1,76 @@
+@layout('layout.layout')
+
+@section('header')
+  
+<link rel="stylesheet" type="text/css" media="screen" href="/css/home.css?v=0.5" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/clouds.css?v=0.5" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/sky.css?v=0.5" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/terminal.css?v=0.5" />
+
+@endsection
+
+@section('content')
+
+<div class="jumbo">
+
+	<div class="cloud s1"></div>
+	<div class="cloud s2"></div>
+	<div class="cloud s3"></div>
+	<div class="cloud s4"></div>
+	<div class="cloud s5"></div>
+	
+	<div class="cloudcontent">
+		<h1>Get Started</h1>
+	</div>
+</div>
+
+<div class="start-section">
+
+		<div class="terminal-window">
+				<header>
+				  <div class="button green"></div>
+				  <div class="button yellow"></div>
+				  <div class="button red"></div>
+				</header>
+				<section class="terminal">
+				  <div class="history"></div>
+				  $&nbsp;<span class="prompt"></span>
+				  <span class="typed-cursor"></span>
+				  
+				</section>
+			  </div>			  
+
+</div>
+
+
+<div class="birds">
+	<div class="cont">
+		<div class="bird-container bird-container--one">
+			<div class="bird bird--one"></div>
+		</div>
+		
+		<div class="bird-container bird-container--two">
+			<div class="bird bird--two"></div>
+		</div>
+		
+		<div class="bird-container bird-container--three">
+			<div class="bird bird--three"></div>
+		</div>
+		
+		<div class="bird-container bird-container--four">
+			<div class="bird bird--four"></div>
+		</div>
+		
+	</div>
+</div>
+</div>
+@endsection
+
+
+@section('scripts')
+
+
+	<script type="text/javascript" src="https://www.mattboldt.com/demos/typed-js/js/typed.custom.js"></script>
+  	<script type="text/javascript" src="/js/terminal.js?v=0.6"></script>
+
+@endsection

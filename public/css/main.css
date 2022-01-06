@@ -1,0 +1,256 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  border: 0;
+}
+
+body {
+    /* color: #8f8f8f; */
+    background:#4b8af1;
+    color: aliceblue;
+    font-family: 'Titillium Web', serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	-moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #002f7a;
+}
+
+
+/* START HEADING TAGS */
+
+h1 {
+    font-size: 30px;
+    line-height: 1.8;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+}
+
+/* END HEADING TAGS */
+
+/* START HEADER SECTION */
+
+.header {
+	position: fixed;
+	top: 0px;
+	max-height: 70px;
+	z-index: 9999;
+	width: 100%;
+	padding-top: 22px;
+	overflow: hidden;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	padding-bottom: 45px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+.logo-img {
+	margin: 10px;
+	margin-top: -15px;
+	width: 135px;
+}
+
+.logo a {
+	width: 50px;
+	float: left;
+	display: block;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 766px) {
+	.logo {
+	  float: none;
+	}
+}
+
+nav {
+	float: right;
+	width: 90%;
+}
+
+@media only screen and (max-width: 766px) {
+	nav {
+	  	width: 100%;
+	}
+}
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+	text-align: right;
+	float: right;
+}
+
+@media only screen and (max-width: 766px) {
+	nav ul {
+		padding-top: 10px;
+		margin-bottom: 22px;
+		float: left;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 35px;
+	line-height: 1.5;
+}
+@media only screen and (max-width: 766px) {
+	nav ul li {
+		width: 100%;
+		padding: 7px 0;
+		margin: 0;
+	}
+}
+nav ul a {
+	color: #9cbdf3;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.mobile-toggle {
+	display: none;
+	cursor: pointer;
+	font-size: 20px;
+	position: absolute;
+	right: 22px;
+	top: 20px;
+	width: 30px;
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	transition: all 200ms ease-in;
+}
+
+@media only screen and (max-width: 766px) {
+	.mobile-toggle {
+		display: block;
+	}
+}
+
+.mobile-toggle span {
+	width: 30px;
+	height: 4px;
+	margin-bottom: 6px;
+	border-radius: 1000px;
+	background: #adadad;
+	display: block;
+}
+
+.open-nav {
+    max-height: 400px !important;
+}
+.open-nav .mobile-toggle {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+.sticky {
+    background-color: rgba(10, 57, 117, 0.856);
+    opacity: 1;
+    top: 0px;
+}
+
+/* END HEADER SECTION */
+
+
+/* START PAGE SECTION */
+
+.page {
+	z-index: 9;
+}
+
+/* END PAGE SECTION */
+
+
+/* FOOTER SECTION  */
+.footer {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	height: 150px;
+	z-index: 9999
+}
+
+.state-starter {
+	background-color: #d0f256;
+	width: 100%;
+	height: 150px;
+	bottom: 0px;
+	position: relative;
+  }
+  
+  @media only screen and (min-height: 766px) {
+	  .footer, .state-starter {
+		  position: absolute;
+	  }
+  }
+  
+  .state-starter .grass {
+	background-color: #4b8af1;
+	width: 100%;
+	height: 100px;
+	position: relative;
+  }
+  .state-starter .grass:before {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: -10px;
+	content: ' ';
+	height: 100px;
+	display: block;
+	background-size: contain;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-image: url('../img//grass.svg')
+  }
+  .state-starter .grass:after {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: ' ';
+	display: block;
+	height: 100px;
+	background-size: contain;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-image: url('../img/grassFront.svg');
+  }
+  
+  .copy {
+	padding-top: 100px;
+	color: #472828;
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 14px;
+  }
+  
+  
+  .start-section {
+	  z-index: 9;
+	  position: relative;
+	  margin-top: 50px;
+  }
+  
+/* END FOOTER SECTION */
+
+body {
+	/*To hide the horizontal scroller appearing during the animation*/
+  overflow-x: hidden;
+  /* z-index: 9999; */
+}
+

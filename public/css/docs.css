@@ -1,0 +1,193 @@
+/* FOOTER FIXER START */
+body{
+	background: #fff;	
+}
+
+.footer {
+	position: relative;
+}
+
+.footer::before {
+	padding: 50px;
+	text-align: center;
+	content: 'In case of any issue with the documentation, please feel free to contact support or contribute the docs. 😃';
+	height: 100px;
+	width: 100%;
+	background: #4b8af1;
+	top: -100px;
+	position: absolute;
+}
+/* FOOTER FIXER END */
+
+.bottom-shifter {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 50px;
+	z-index: 99999;
+}
+
+#doc-container {
+	margin-top: 150px;
+	margin-bottom: 100px;
+    font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	color: #555;
+}
+
+
+#doc-container strong {
+	font-weight: 500;
+}
+
+#doc-container a{
+    color: #1557c0;
+}
+
+#doc-container li a {
+	font-size: 17px;
+	font-weight: 300;
+}
+
+#doc-container a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400 !important;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	color: #585656;
+}
+
+#doc-container p {
+	margin-bottom: 25px;
+}
+
+table {
+	border: 1px double #aaaaaa;
+	width: 100%;
+}
+
+tbody, th, tr, td {
+	text-align:center;
+	padding: 5px;
+	border: 1px solid #aaaaaa;
+}
+
+h1:before, h2:before, h3:before {
+	display: block; 
+	content: " "; 
+	margin-top: -90px; 
+	height: 90px; 
+	visibility: hidden; 
+	pointer-events: none;
+}
+
+h1 {
+	margin-top: 50px;
+	font-size: 2.5rem;
+}
+
+h2{
+	margin-top: 40px;
+	font-size: 32px;
+}
+h3{
+    margin-top: 20px;
+    font-size: 25px;
+}
+h4 {
+    font-size: 20px;
+}
+.sidebar {
+	float: left;
+	font-size: 16px;
+	font-weight: 300;
+	padding-bottom: 50px;
+	/* width: 300px; */
+	/* margin-right: 200px; */
+}
+
+.sidebar h2 {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 20px !important;
+}
+
+.sidebar > ul {
+	/* position: fixed; */
+}
+
+.sidebar li {
+	list-style: none;
+}
+
+article {
+	padding-left: 50px !important;
+	padding-bottom: 50px !important;
+}
+#doc-container article h1+ul {
+	line-height: 1.8;
+	padding-bottom: 50px;
+    border-bottom: 1px solid #f0f2f1;
+    -webkit-font-smoothing: antialiased;
+}
+#doc-container article ul li {
+	list-style-type: disc;
+	margin-left: 25px;
+}
+.sidebar h2 {
+    position: relative;
+    font-size: 17px;
+    padding: .75rem .75rem .75rem 0;
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+pre {
+    margin: 20px 0 20px 0;
+    border: 1px solid #ddd;
+	font-size: 17px;
+	padding: 10px;
+	background: #232323;
+}
+
+code {
+    background-color: rgb(241, 241, 241);
+	padding: 2px 5px 2px 5px;
+	margin: 0px 5px 0px 5px;
+	font-family: 'Inconsolata', monospace;
+	font-size: 16px;
+	color: #4b8af1;
+	border-bottom: 1px solid #dee;
+	border-right: 1px solid #dee;
+}
+
+code.hljs {
+	border: none;
+}
+
+blockquote p {
+	background: #4b8af1;
+	padding: 15px;
+	color: #f0ecec;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16.5px;
+}
+
+blockquote strong {
+	font-weight: 900 !important;
+}
+
+blockquote a {
+	color: #ffffff !important;
+}
+
+blockquote a:hover {
+	color: #c4b1b1 !important;
+}

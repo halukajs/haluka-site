@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{{ title }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="Haluka is a lightweight node.js web framework crafted with love for rapid development which makes building applications simpler and faster. It includes hastle-free setup procedure for all sorts of projects from prototype to enterprise solutions.">
+    
+    <meta name="author" content="Haluka">
+    
+    <meta name="keywords" content="haluka, nodejs, framework, web, express, jsaxe">
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-128.png" sizes="128x128">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/fonts.css?v=0.5" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css?v=0.5" />
+	
+	@!section('header')    
+</head>
+<body>
+
+	<div class="header sticky">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="/"><img class="logo-img" src="/img/logo_white.png" /></a>
+				</div>
+	
+				<div class="mobile-toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+				</div>
+	
+				<nav>
+					<ul>
+						<li><a href="/getting-started">Getting Started</a></li>
+						<li><a href="/docs">Documentation</a></li>
+						<li><a href="https://github.com/halukajs">GitHub</a></li>
+						<li><a href="https://bits.bitnac.com">Bits</a></li>
+					</ul>
+				</nav>
+	
+			</div>
+		</div>
+	</div>
+
+
+	<div class="page">
+	@!section('content')
+	</div>
+
+	<div class="footer">
+		<div class="state-starter">
+			<div class="grass">
+				<p class="copy text-center">Copyright &copy; <a href="https://haluka.dev/">Haluka</a> 2020</p>
+			</div>
+		</div>
+	</div>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/navbar.js"></script>	
+	@!section('scripts')
+
+</body>
+</html>
+<!--
+GET TO THE SAFE ZONE!
+-->
